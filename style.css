@@ -1,0 +1,430 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
+body {
+    background-color: white;
+}
+
+main {
+
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+
+}
+
+#myForm {
+    margin: 0 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #2871a0;
+    color: white;
+    padding: 10px;
+}
+
+.p1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.p1 label,
+.p2 label {
+    margin: 10px 0;
+}
+
+.p3,
+.p4,
+.p5,
+.pm,
+.p9,
+.p99,
+.p11,
+.e2,
+.e5,
+.x1 {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.p3 input,
+.p4 input,
+.p5 input,
+.pm input,
+.p9 input,
+.p99 input,
+.p11 input,
+.e2 input,
+.e5 input,
+.x1 input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+.p6,
+.p7,
+.p8,
+.e6,
+.x2,
+.c2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.p1 input[type="date"],
+.p6 input[type="date"],
+.y2 input[type="date"],
+.c2 input[type="date"] {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #a6b3c9;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.p7 input[type="number"],
+.p8 input[type="number"],
+.e3 input[type="number"],
+.e6 input[type="number"],
+.e7 input[type="number"],
+.y2 input[type="number"] {
+    padding: 5px 10px;
+}
+
+#file-upload-button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #a6b3c9;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.e7 input[type="time"] {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #a6b3c9;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.p10,
+.p12,
+.e3,
+.e7,
+.y2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.p1 input[type="text"],
+.p2 input[type="text"],
+.p10 input[type="text"],
+.p12 input[type="text"],
+.p7 input[type="text"],
+.e3 input[type="text"],
+.x2 input[type="text"] {
+    padding: 5px 10px;
+}
+
+.x2 input[type="tel"] {
+    padding: 5px 10px;
+}
+
+.e1,
+.e4,
+.e8,
+.y1 {
+    margin: 20px 0;
+}
+
+.e1 input[type="textarea"],
+.p6 input[type="textarea"],
+.e8 input[type="textarea"],
+.y1 input[type="textarea"],
+.c3 input[type="textarea"] {
+    padding: 5px 10px;
+}
+
+h4 {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.c3 li {
+    margin-bottom: 10px;
+}
+
+.c3 p {
+    margin-bottom: 10px;
+}
+
+/* Button styles */
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2871a0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn input[type="submit"] {
+    margin: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #444d55;
+    background-color: #a6b3c9;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.btn input[type="submit"]:hover {
+    background-position: right center;
+    color: darkslategray;
+    text-decoration: none;
+}
+
+.btn input[type="submit"]:active {
+    transform: scale(0.95);
+}
+
+/* Button Styles End */
+
+.f4 h1 {
+    margin: 0;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    background-color: #2871a0;
+    color: white;
+}
+
+.f1,
+.f0,
+.f2,
+.f3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 50px;
+}
+
+.f0,
+.f3,
+.f2 {
+    gap: 20px;
+}
+
+.fa-solid,
+.fa-mobile-screen,
+.fa-envelope {
+    font-size: 40px;
+    color: #2871a0;
+}
+
+.f0 a,
+.f2 a,
+.f3 a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 500px) {
+    
+    main {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    main .p1 {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .p2 input[type="text"] {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    main .p6 {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .p6 input[type="textarea"] {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .p6 input[type="date"] {
+        margin-bottom: 10px;
+    }
+
+    main .p7 {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .p7 input[type="number"],
+    .p7 input[type="text"] {
+        flex-direction: column;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .p7 label {
+        width: 100%;
+    }
+
+    main .p8 {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .p8 input[type="number"],
+    .p8 input[type="text"] {
+        flex-direction: column;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .p8 label {
+        width: 100%;
+    }
+
+    main .p10,
+    main .p12,
+    main .e3,
+    main .e61, 
+    main .e7,
+    main .y2,
+    main .x2,
+    main .c2 {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .p10 input[type="text"],
+    .p6 input[type="date"],
+    .p12 input[type="text"],
+    .e3 input[type="text"],
+    .e3 input[type="number"],
+    .e1 input[type="textarea"],
+    .e61 input[type="number"],
+    .e7 input[type="number"],
+    .e7 input[type="time"],
+    .e8 input[type="textarea"],
+    .y1 input[type="textarea"],
+    .y2 input[type="number"],
+    .y2 input[type="number"],
+    .y2 input[type="date"],
+    .y2 input[type="file"],
+    .x2 input[type="text"],
+    .x2 input[type="tel"],
+    .c2 input[type="date"],
+    .c2 input[type="file"],
+    .c3 input[type="textarea"],
+    .c3 input[type="file"] {
+        flex-direction: column;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .p10 label,
+    .p6 label,
+    .p12 label,
+    .e3 label,
+    .e7 label,
+    .y2 label,
+    .x2 label,
+    .c2 label {
+        width: 100%;
+    }
+
+    main .e6 {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+     footer .f1 {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer .f0 {
+        width: 100%;
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer .f2 {
+        width: 100%;
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer .f3 {
+        width: 100%;
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+}

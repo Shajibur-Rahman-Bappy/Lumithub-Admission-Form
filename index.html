@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lumithub Student Admission Form</title>
+</head>
+
+<body>
+    <main>
+        <img src="" alt="">
+        <form id="myForm" action="/registration" method="post">
+            <h1>Student Admission Form</h1>
+            <div class="p1">
+                <label for="date">Admission Date :
+                    <input type="date" name="admission date" id="date" required>
+                </label>
+                <label for="sec">Section Name:
+                    <input type="text" name="section" required>
+                </label>
+            </div>
+            <div class="p2">
+                <label for="id">Admission ID:
+                    <input type="text" name="id" required>
+                </label>
+                <label for="ref">Reference Name and Code:
+                    <input type="text" name="ref">
+                </label>
+            </div>
+            <h2 id="p-info">
+                Personal Information
+            </h2>
+            <div class="p3">
+                <label for="nEng">
+                    1. Name (English):
+                    <input type="text" name="nEng" required>
+                </label>
+            </div>
+            <div class="p4">
+                <label for="nBan">
+                    Name (Bangla):
+                    <input type="text" name="nBan" required>
+                </label>
+            </div>
+            <div class="p5">
+                <label for="Fnam">
+                    2. Fathers Name:
+                    <input type="text" name="Fnam" required>
+                </label>
+            </div>
+            <div class="pm">
+                <label for="Mnam">
+                    Mothers Name:
+                    <input type="text" name="Mnam" required>
+                </label>
+            </div>
+            <div class="p6">
+                <label for="bdate">
+                    3. Birth Date:
+                     <input type="date" name="bdate" id="date" required>
+                </label>
+                <label for="sex">
+                    4. Sex:
+                    <input type="radio" name="sex" value="male"> Male
+                    <input type="radio" name="sex" value="female"> Female
+                    <label><input type="radio" class="inline" /> Other: <input type="textarea" name="feature"
+                            class="inline" /></label>
+                </label>
+            </div>
+            <div class="p7">
+                <label for="nation">
+                    5. Nationality:
+                    <input type="text" name="nation" id="" required>
+                </label>
+                <label for="Nid">
+                    6. National ID:
+                    <input type="number" name="Nid" id="" required>
+                </label>
+            </div>
+            <div class="p8">
+                <label for="phn">
+                    7. Contact Number:
+                    <input type="number" name="phn" id="" required>
+                </label>
+                <label for="wno">
+                    Whatsapp Number:
+                    <input type="number" name="wnum" id="" required>
+                </label>
+            </div>
+            <div class="p9">
+                <label for="mail">
+                    8. Email:
+                    <input type="email" name="mail" id="" required>
+                </label>
+                <div class="p99">
+                    <label for="pAdd">
+                        9. Present Address:
+                        <input type="text" name="pAdd" id="" required>
+                    </label>
+                </div>
+            </div>
+            <div class="p10">
+                <label for="pst">
+                    Post:
+                    <input type="text" name="pst" id="" required>
+                </label>
+                <label for="thana">
+                    Thana:
+                    <input type="text" name="thana" id="" required>
+                </label>
+                <label for="dist">
+                    District:
+                    <input type="text" name="dist" id="" required>
+                </label>
+            </div>
+            <div class="p11">
+                <label for="perAdd">
+                    10. Permanent Address:
+                    <input type="text" name="perAdd" id="" required>
+                </label>
+            </div>
+            <div class="p12">
+                <label for="pst">
+                    Post:
+                    <input type="text" name="pst" id="" required>
+                </label>
+                <label for="thana">
+                    Thana:
+                    <input type="text" name="thana" id="" required>
+                </label>
+                <label for="dist">
+                    District:
+                    <input type="text" name="dist" id="" required>
+                </label>
+            </div>
+            <label for="edu">
+                <h2>Educational Qualification</h2>
+            </label>
+            <div class="e1">
+                <label for="heq">
+                    11. Highest Educational Qualification:
+                </label>
+                <label for="heqq">
+                    <input type="radio" name="heq" value="ssc"> SSC
+                    <input type="radio" name="heq" value="hsc"> HSC
+                    <input type="radio" name="heq" value="bachelor"> Bachelor's
+                    <input type="radio" name="heq" value="masters"> Master's
+                    <label><input type="radio" class="inline" /> Other: <input type="textarea" name="feature"
+                            class="inline" />
+                </label>
+            </div>
+            <div class="e2">
+                <label for="institute">
+                    12. Name of the Institution:
+                    <input type="text" name="institute" id="" required>
+                </label>
+            </div>
+            <div class="e3">
+                <label for="pYear">
+                    Passing Year:
+                    <input type="number" name="pYear" id="" required>
+                </label>
+                <label for="group">
+                    Group:
+                    <input type="text" name="group" id="" required>
+                </label>
+                <label for="result">
+                    Result:
+                    <input type="number" name="result" id="" required>
+                </label>
+            </div>
+            <div class="e4">
+                <label for="exp">
+                    13. Previous Experience:
+                    <input type="radio" name="no" value="no"> None
+                    <input type="radio" name="ameture" value="ameture"> Ameture
+                    <input type="radio" name="int" value="int"> Intermediate
+                    <input type="radio" name="adv" value="adv"> Advanced
+                </label>
+            </div>
+            <label for="inf">
+                <h2>Course Related Information</h2>
+            </label>
+            <div class="e5">
+                <label for="cName">
+                    14. Preferred Course Name:
+                    <input type="text" name="cName" id="" required>
+                </label>
+            </div>
+            <div class="e6">
+                <div class="e61">
+                    <label for="cCode">
+                    Course Code:
+                    <input type="number" name="cCode" id="" required>
+                </label>
+                </div>
+                <div class="e62">
+                    <label for="cType">
+                    Course Type:
+                    <input type="radio" name="cType" value="online"> Online
+                    <input type="radio" name="cType" value="offline"> Offline
+                    <input type="radio" name="cType" value="rec"> Recorded
+                </label>
+                </div>
+            </div>
+            <div class="e7">
+                <label for="cFee">
+                    15. Course Fee:
+                    <input type="number" name="cFee" id="" required placeholder="Enter course fee in Tk">
+                </label>
+                <label for="cDuration">
+                    Course Duration:
+                    <input type="number" name="cDuration" id="" required>
+                </label>
+                <label for="cTime">
+                    Class Time:
+                    <input type="time" name="cTime" id="" required>
+                </label>
+            </div>
+            <div class="e8">
+                <label for="aPur">
+                    16. Admission Purpose:
+                    <input type="radio" name="aPur" value="job"> Job
+                    <input type="radio" name="aPur" value="fLan"> Freelancing
+                    <input type="radio" name="aPur" value="hStudy"> Higher Study
+                    <input type="radio" name="aPur" value="buss"> Bussiness
+                    <label><input type="radio" class="inline" /> Other: <input type="textarea" name="feature"
+                            class="inline" /></label>
+                </label>
+            </div>
+            <label for="pinf">
+                <h2>Payment Information</h2>
+            </label>
+            <div class="y1">
+                <label for="payMethod">
+                    17. Payment Method:
+                    <input type="radio" name="payMethod" value="cash"> Cash
+                    <input type="radio" name="payMethod" value="mBank"> Mobile Banking
+                    <input type="radio" name="payMethod" value="bank"> Bank
+                    <label><input type="radio" class="inline" /> Other: <input type="textarea" name="feature"
+                            class="inline"/></label>
+                </label>
+            </div>
+            <div class="y2">
+                <label for="amnt">
+                    18. Amount:
+                    <input type="number" name="amnt" id="" required placeholder="Enter amount in Tk">
+                </label>
+                <label for="date">
+                    Date:
+                    <input type="date" name="date" id="" required>
+                </label>
+                <label for="att">
+                    Attachment:
+                    <input type="file" name="att" id="file-upload-button" required>
+                </label>
+            </div>
+            <label for="uContact">
+                <h2>Emergency Contact Information</h2>
+            </label>
+            <div class="x1">
+                <label for="conName">
+                    19. Contact Name:
+                    <input type="text" required name="conName" id="">
+                </label>
+            </div>
+            <div class="x2">
+                <label for="cRelation">
+                    Relationship:
+                    <input type="text" name="cRelation" id="" required>
+                </label>
+                <label for="cPhone">
+                    Phone Number:
+                    <input type="tel" name="cPhone" id="" required>
+                </label>
+            </div>
+            <div class="c1">
+                <h4>Announcement and Signature:</h4>
+                <p>I hereby declare that the information provided above is true and accurate to the best of my
+                    knowledge. I am solely responsible for any incorrect information provided.</p>
+            </div>
+            <div class="c2">
+                <label for="signature">
+                    Student Signature:
+                    <input type="file" name="signature" id="file-upload-button" required>
+                </label>
+                <label for="att">
+                    Date:
+                    <input type="date" name="date" id="" required>
+                </label>
+            </div>
+
+            <div class="c3">
+                <h4>Attachment:</h4>
+                <li>2 copy passport size photo</li>
+                <li>National ID card / Birth Certificate</li>
+                <li>Educational Certificate</li>
+                <li>Other: <input type="textarea" name="" id=""></li>
+                <h4>Note:</h4>
+                <p>- Please ensure all documents are submitted in the required format.</p>
+                <p>- No refund will be issued after deposit admission fee.</p>
+                <p>- If needed, Authority can change the rules and regulations at any time.</p>
+                <label for="authority">
+                    Authority Signature:
+                    <input type="file" name="signature1" id="file-upload-button" required>
+                </label>
+
+            </div>
+            <div class="btn">
+                <input type="submit" value="submit" onclick="showForm('myForm')">
+            </div>
+
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <div class="f1">
+            <div class="f0">
+                <a href=""><i class="fa-solid fa-mobile-screen"></i> </a>
+                <p>
+                    <a href="tel:+8809639660000">+8809639660000</a>
+                </p>
+            </div>
+            <div class="f2">
+                <a href=""><i class="fa-regular fa-envelope"></i></a>
+                <div>
+                    <a href="mailto:info@lumithub.com">info@lumithub.com</a>
+                    <br>
+                    <a href="mailto:lumithubltd@gmail.com">lumithubltd@gmail.com</a>
+                </div>
+            </div>
+            <div class="f3">
+                <a href=""><i class="fa-solid fa-location-dot"></i></a>
+                <a href=https://maps.app.goo.gl/XFoUA3YVVMYdn4Jn6 target="_blank" rel="noopener noreferrer">
+                    <p>H: 3/B, Flat: A-5, Road: 16/A,<br>
+                        Gulshan-1, Dhaka-1212</p>
+                </a>
+            </div>
+        </div>
+        <div class="f4">
+            <h1>www.lumithub.com</h1>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/7306bb18cf.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
