@@ -29,6 +29,7 @@ main {
 h1 {
     text-align: center;
     margin-bottom: 20px;
+    padding: 10px 0;
 }
 
 h2 {
@@ -287,19 +288,24 @@ h4 {
         width: 100%;
     }
 
-    main .p1 {
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
+    main h1 {
+        padding: 20px 0;
     }
 
     .p2 input[type="text"] {
+        margin: 10px 0;
         flex-direction: column;
         width: 100%;
         align-items: center;
     }
-
-    main .p6 {
+    .p1 label {
+        margin: 0;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+    .p2 label {
+        margin: 0;
         flex-direction: column;
         width: 100%;
         align-items: flex-start;
@@ -313,11 +319,6 @@ h4 {
         margin-bottom: 10px;
     }
 
-    main .p7 {
-        flex-direction: column;
-        width: 100%;
-        align-items: flex-start;
-    }
 
     .p7 input[type="number"],
     .p7 input[type="text"] {
@@ -328,12 +329,6 @@ h4 {
 
     .p7 label {
         width: 100%;
-    }
-
-    main .p8 {
-        flex-direction: column;
-        width: 100%;
-        align-items: flex-start;
     }
 
     .p8 input[type="number"],
@@ -348,6 +343,11 @@ h4 {
     }
 
     main .p10,
+    main .p1,
+    main .p2,
+    main .p6,
+    main .p7,
+    main .p8,
     main .p12,
     main .e3,
     main .e61, 
@@ -361,6 +361,8 @@ h4 {
     }
 
     .p10 input[type="text"],
+    .p1 input[type="date"],
+    .p1 input[type="text"],
     .p6 input[type="date"],
     .p12 input[type="text"],
     .e3 input[type="text"],
