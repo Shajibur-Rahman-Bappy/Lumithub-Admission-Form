@@ -16,10 +16,23 @@ main {
 
     width: 80%;
     margin: 0 auto;
-    display: flex;
+    display: block;
     justify-content: center;
     background-color: aliceblue;
 
+}
+main img {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main #address {
+    text-align: center;
+    margin: 5px 0;
 }
 
 #myForm {
@@ -290,6 +303,16 @@ h4 {
 
     main h1 {
         padding: 20px 0;
+    }
+    main img {
+        width: 120px;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+    }
+    main #address {
+        text-align: center;
+        margin: 5px 0;
     }
 
     .p2 input[type="text"] {
